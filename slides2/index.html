@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Wasteland Wonderer</h1>
+					<h3>Simple JS rogue-like game prototype</h3>
+					<p>
+						<small>Created by <a href="http://ianbrode.github.io">Ian Brodetsky</a> / <a href="http://twitter.com/ianbrode">@ianbrode</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Привет</h2>
+					<p>Меня зовут Ян. Я работаю в Rambler&Co фронтендером. По образованию я журналист. Когда-то защитил диссертацию по зарубежной истории.</p>
+					<p>Если у вас возникнул вопросы по html, js, css, можете задавать их по Skype.</p>
+				</section>
+
+				<section>
+					<h2>Теория</h2>
+					<ul>
+						<li>git</li>
+						<li>browser rendering</li>
+						<li>html, css, js</li>
+						<li>js syntax</li>
+						<li>bpmn</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>СКВ</h2>
+					<p>Система контроля версий (СКВ) — это система, регистрирующая изменения в одном или нескольких файлах с тем, чтобы в дальнейшем была возможность вернуться к определённым старым версиям этих файлов.</p>
+				</section>
+
+				<section>
+					<h4>Git - одна из систем контроля версий</h4>
+					<p>Документация и файлы: <a href="git-scm.com">www.git-scm.com</a></p>
+					<p>Социальная сеть на основе гита: <a href="Github.com">Github.com</a></p>
+				</section>
+
+				<section>
+					<h2>feel the diff</h2>
+					<img height="500" data-src="./img/git-yes-no.png" alt="Down arrow">
+				</section>
+
+				<section>
+					<h2>Git commands</h2>
+					<pre>
+						<code data-trim contenteditable>
+git init
+git add
+git commit
+git push/pull
+git merge/rebase
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Practice #1</h2>
+					<pre>
+						<code data-trim contenteditable>
+$: mkdir codeschool
+$: cd codeschool
+$: git clone https://github.com/ianbrode/wastelandWonderer.git
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Practice #2</h2>
+					<pre>
+						<code data-trim contenteditable>
+$: git init
+//измените что-нибудь
+$: git add -A
+$: git commit -m "Initial commit"
+
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Использованные технологии</h2>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>jQuery</li>
+						<li>Bootstrap</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h2>HTML/CSS</h2>
+					<p>Язык гипертекстовой разметки + каскадные стили</p>
+					<pre>
+						<code data-trim contenteditable>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Wasteland Wonderer</a>
+    </div>
+  </div>
+</nav>
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Javascript</h2>
+					<pre>
+						<code data-trim contenteditable>
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>JS syntax</h2>
+					<pre>
+						<code data-trim contenteditable>
+
+'string'; //строка
+
+true/false; //булево значение
+
+123; //число
+
+[1, 2, 4.6, 9]; //массив
+
+var a = 1; //назначение переменной
+
+function doSomething(arg){ //функция
+	//код функции
+};
+
+{'name': 'John Snow'} //объект
+
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>JS conditions</h2>
+					<pre>
+						<code data-trim contenteditable>
+
+//Дерево условий
+if (true) {
+	//выполнится только код тут
+} else if (false) {
+	//этот код не выполнится
+} else {
+	//и этот тоже
+}
+
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>JS loops</h2>
+					<pre>
+						<code data-trim contenteditable>
+
+for (var i = 0; i < 10; i++){
+
+	//будет выполнено 10 раз
+
+}
+
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Skrewdrivers</h2>
+					<p>Удобные отвёртки</p>
+					<ul>
+						<li>jQuery</li>
+						<li>Bootstrap</li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h2>jQuery</h2>
+					<p>Удобный инструмент для разработки</p>
+					<p>Забрать и почитать документацию можно тут:</p>
+					<a href="http://jquery.com/">jquery.com</a>
+				</section>
+
+				<section>
+					<h2>Bootstrap</h2>
+					<p>Позволяет быстро набросать структуру страницы без необходимости писать все стили самому.</p>
+					<p>Забрать и почитать документацию можно тут:</p>
+					<a href="getbootstrap.com">getbootstrap.com</a>
+				</section>
+
+				<section>
+					<h2>BPMN</h2>
+					<p>BPMN - Business Process Management Notation</p>
+					<p>Интрумент для описания бизнес-процессов</p>
+				</section>
+
+				<section>
+					<h2>BPMN</h2>
+					<p>
+						<img height="450" style="background-color:white;" src="./img/diagram.png">
+					</p>
+				</section>
+
+				<section>
+					<h2>BPMN tools</h2>
+					<ul>
+						<li><a href="">draw.io</a></li>
+						<li><a href="https://camunda.org/bpmn/tutorial/">camunda.org/bpmn/tutorial/</a></li>
+						<li><a href="http://www.bizagi.com/">bizagi.com/</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Heroes</h2>
+					<pre>
+						<code data-trim contenteditable>
+
+var vaultDwellers = [
+	{
+	  name: 'Plain Joe',
+	  max_hp: 10,
+	  cur_hp: 10,
+	  att: 1,
+	  def: 10,
+	  stims: 2,
+	  caps: 0,
+	  xp: 0,
+	  level: 1,
+	},
+];
+
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Описание объекта персонажа</h2>
+					<pre>
+						<code data-trim contenteditable>
+
+name: 'Plain Joe' //имя
+max_hp: 10 //максимальное количество здоровья
+cur_hp: 10 //текущее здоровье
+att: 1 //атака
+def: 10 //защита
+stims: 2 //аптечки
+caps: 0 //деньги
+xp: 0 //экспа
+level: 1 //уровень
+
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Practice #3</h2>
+					<p>Описать свой тип героя</p>
+				</section>
+
+				<section>
+					<h2>Events</h2>
+					<pre>
+						<code data-trim contenteditable>
+
+var Events = [
+  {
+    name: 'Bandit',
+    disposition: 'agressive',
+    cur_hp: 5,
+    att: 1,
+    def: 10,
+    xpVal: 200,
+    desk: 'You see wasteland scum.'
+  },
+]
+
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Описание объекта события</h2>
+					<pre>
+						<code data-trim contenteditable>
+
+name: 'Bandit', //имя события
+disposition: 'agressive', //отношение события к персонажу
+cur_hp: 5, //здоровье
+att: 1, //уровень атаки
+def: 10, //уровень защиты
+xpVal: 200, //опыта за убийство
+desk: 'You see wasteland scum.' //описание
+
+						</code>
+					</pre>
+				</section>
+
+				<section>
+					<h2>Practice #4</h2>
+					<p>Описать свой тип события</p>
+				</section>
+
+				<section>
+					<h2>Домашнее задание</h2>
+					<ul>
+						<li>Добавить карту</li>
+						<li>Добавить выбор оружия</li>
+						<li>Закоммитить свои изменения</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Полезные ресурсы</h2>
+					<ol>
+						<li>Учебник по canvas <a href="http://files.joshondesign.com/books/canvasdeepdive/toc.html">files.joshondesign.com/books/canvasdeepdive/toc.html</a></li>
+						<li>Крутой блог об игроделе <a href="http://www.redblobgames.com/">redblobgames.com</a></li>
+						<li><a href="javascript.ru">Javascript.ru</a></li>
+						<li>Бесплатная обучалка jQuery <a href="code.tutsplus.com/courses/30-days-to-learn-jquery">code.tutsplus.com/courses/30-days-to-learn-jquery</a></li>
+						<li>Бесплатная обучалка HTML/CSS <a href="http://webdesign.tutsplus.com/courses/30-days-to-learn-html-css">webdesign.tutsplus.com/courses/30-days-to-learn-html-css</a></li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Контакты</h2>
+					<ul>
+						<li>Skype: ianbrode</li>
+						<li>Mail: y.brodetsky@rambler-co.ru</li>
+					</ul>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
