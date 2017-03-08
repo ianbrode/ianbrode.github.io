@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.054b68f8.css",
-  "main.css.map": "static/css/main.054b68f8.css.map",
-  "main.js": "static/js/main.e3592884.js",
-  "main.js.map": "static/js/main.e3592884.js.map",
+  "main.css": "static/css/main.1facb1c5.css",
+  "main.css.map": "static/css/main.1facb1c5.css.map",
+  "main.js": "static/js/main.067dd0f9.js",
+  "main.js.map": "static/js/main.067dd0f9.js.map",
   "static/media/Drink.mp3": "static/media/Drink.d9cb7c28.mp3",
   "static/media/Game.mp3": "static/media/Game.530f1fb2.mp3",
   "static/media/Whistle_1.mp3": "static/media/Whistle_1.9ce1f19b.mp3",
@@ -26,6 +26,7 @@
   "static/media/right-g-3.png": "static/media/right-g-3.a41a8909.png",
   "static/media/rightt-g-1-2.png": "static/media/rightt-g-1-2.2a66f5c7.png",
   "static/media/rightt-g-1.png": "static/media/rightt-g-1.60296554.png",
-  "static/media/shu.png": "static/media/shu.577b15e6.png",
+  "static/media/shu1.png": "static/media/shu1.2c04c310.png",
+  "static/media/shu2.png": "static/media/shu2.75010a2b.png",
   "static/media/win.png": "static/media/win.cd95d991.png"
 }
