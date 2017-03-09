@@ -1,10 +1,10 @@
 {
   "main.css": "static/css/main.f8e5cf80.css",
   "main.css.map": "static/css/main.f8e5cf80.css.map",
-  "main.js": "static/js/main.4809e1e0.js",
-  "main.js.map": "static/js/main.4809e1e0.js.map",
+  "main.js": "static/js/main.ed27f99b.js",
+  "main.js.map": "static/js/main.ed27f99b.js.map",
   "static/media/Drink.mp3": "static/media/Drink.d9cb7c28.mp3",
-  "static/media/Game.mp3": "static/media/Game.530f1fb2.mp3",
+  "static/media/Game.wav": "static/media/Game.ef8456d9.wav",
   "static/media/Whistle_1.mp3": "static/media/Whistle_1.9ce1f19b.mp3",
   "static/media/Whistle_2.mp3": "static/media/Whistle_2.db2fcf72.mp3",
   "static/media/You_lose.mp3": "static/media/You_lose.b205eb0b.mp3",
