@@ -1,20 +1,6 @@
 {
-  "main.css": "static/css/main.92c911ce.css",
-  "main.css.map": "static/css/main.92c911ce.css.map",
-  "main.js": "static/js/main.6df03df7.js",
-  "main.js.map": "static/js/main.6df03df7.js.map",
-  "static/media/Medvedev_GP.wav": "static/media/Medvedev_GP.8510fee4.wav",
-  "static/media/Medvedev_lose.wav": "static/media/Medvedev_lose.248f6138.wav",
-  "static/media/Medvedev_victory.wav": "static/media/Medvedev_victory.1891a3c2.wav",
-  "static/media/fail.png": "static/media/fail.2f55c25a.png",
-  "static/media/hit1.wav": "static/media/hit1.d42001f1.wav",
-  "static/media/hit2.wav": "static/media/hit2.fecc6040.wav",
-  "static/media/main.png": "static/media/main.bc358c47.png",
-  "static/media/med1.png": "static/media/med1.e6e2d687.png",
-  "static/media/med2.png": "static/media/med2.53e5eef9.png",
-  "static/media/med3.png": "static/media/med3.cf1b2529.png",
-  "static/media/play.png": "static/media/play.9117e15b.png",
-  "static/media/play_again.png": "static/media/play_again.af57f33b.png",
-  "static/media/play_button.png": "static/media/play_button.e9c65b65.png",
-  "static/media/win.png": "static/media/win.b050d48c.png"
+  "main.css": "static/css/main.9a0fe4f1.css",
+  "main.css.map": "static/css/main.9a0fe4f1.css.map",
+  "main.js": "static/js/main.1055ebc8.js",
+  "main.js.map": "static/js/main.1055ebc8.js.map"
 }
