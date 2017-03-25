@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.4814a2b2.css",
   "main.css.map": "static/css/main.4814a2b2.css.map",
-  "main.js": "static/js/main.1a4d2b5a.js",
-  "main.js.map": "static/js/main.1a4d2b5a.js.map",
+  "main.js": "static/js/main.16585d02.js",
+  "main.js.map": "static/js/main.16585d02.js.map",
   "static/media/1.png": "static/media/1.51ede987.png",
   "static/media/10.png": "static/media/10.09d99553.png",
   "static/media/11.png": "static/media/11.3bbd369f.png",
@@ -29,9 +29,14 @@
   "static/media/9.png": "static/media/9.8d262fa6.png",
   "static/media/back.png": "static/media/back.e22ebcce.png",
   "static/media/cock.png": "static/media/cock.57c5de3e.png",
+  "static/media/eat1.wav": "static/media/eat1.ac755c51.wav",
+  "static/media/eat2.wav": "static/media/eat2.08a8bde6.wav",
+  "static/media/game.wav": "static/media/game.1293efbd.wav",
   "static/media/header.png": "static/media/header.5a309cf2.png",
   "static/media/lose.png": "static/media/lose.947b22f5.png",
+  "static/media/lose.wav": "static/media/lose.b723dca3.wav",
   "static/media/more.png": "static/media/more.b1272c6c.png",
   "static/media/play.png": "static/media/play.dc99cd09.png",
-  "static/media/win.png": "static/media/win.79d85628.png"
+  "static/media/win.png": "static/media/win.79d85628.png",
+  "static/media/win.wav": "static/media/win.b47a89c5.wav"
 }
