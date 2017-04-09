@@ -143,7 +143,7 @@ function makeRocket() {
     rockets.forEach(function(r, i) {
       if (r.id === rocket.id) rockets.splice(i, 1);
     });
-    if (counter === 54) playDead(true);
+    if (counter === 59) playDead(true);
     Math.round(Math.random()) ? throwMusic.play() : throw2Music.play();
   });
   rockets.push(rocket);
@@ -369,7 +369,7 @@ function setup() {
     if (!started) return;
 
     if ((getRandomInt(1, 100) > spawnRate) && counter <= 59) makeRocket();
-    speed = speed + 0.0002;
+    speed = speed + 0.0005;
     rockets.forEach(function(rocket, i) {
       if (rocket.y < 350) {
         moveRocket(rocket)
