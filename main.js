@@ -52,7 +52,7 @@ var getHitMusic;
 
 var rockets = [];
 var explosionTextures = [];
-var speed = 3;
+var speed = 2;
 var id = 1;
 var counter = 0;
 var spawnRate = 99;
@@ -60,6 +60,7 @@ var healthAmount = 6;
 var healtRockets = [];
 var basicText;
 var target = {x: 601, y: 390};
+var started = false;
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -89,6 +90,7 @@ function startGame() {
   gamePlayMusic.play();
   makeRocket();
   gamePlayMusic.play();
+  started = true;
 }
 
 function rocketExplode(e) {
@@ -124,7 +126,6 @@ function makeRocket() {
     rocket.rotation = Math.PI * 2 * 0.18;
   }
 
-  var speed = 2;
   var dx = (rocket.x - target.x);
   var dy = (rocket.y - target.y);
   var mag = Math.sqrt(dx * dx + dy * dy);
@@ -148,7 +149,7 @@ function makeRocket() {
   rockets.push(rocket);
   play.addChild(rocket);
   counter += 1;
-  basicText.setText('' + counter + '/54');
+  basicText.setText('' + counter + '/59');
 }
 
 function playDead(win) {
@@ -156,6 +157,7 @@ function playDead(win) {
   gamePlayMusic.stop();
   app.ticker.stop();
   app.ticker.update();
+  started = false;
 }
 
 function reStart() {
@@ -168,6 +170,7 @@ function reStart() {
   rockets = [];
   id = 1;
   counter = 0;
+  speed = 2;
   healthAmount = 6;
   app.ticker.start();
   startGame();
@@ -232,7 +235,7 @@ function setup() {
   var rocketIcon = new PIXI.Sprite(
     PIXI.loader.resources["./assets/health.png"].texture
   );
-  var str = '' + counter + '/54';
+  var str = '' + counter + '/59';
   basicText = new PIXI.Text(str, new PIXI.TextStyle({fontSize: 36, fill: '#ffffff'}));
   basicText.x = 50;
   basicText.y = 10;
@@ -363,8 +366,10 @@ function setup() {
   app.stage.addChild(win);
 
   app.ticker.add(function() {
-    if ((getRandomInt(1, 100) > spawnRate) && counter <= 54) makeRocket();
+    if (!started) return;
 
+    if ((getRandomInt(1, 100) > spawnRate) && counter <= 59) makeRocket();
+    speed = speed + 0.0002;
     rockets.forEach(function(rocket, i) {
       if (rocket.y < 350) {
         moveRocket(rocket)
@@ -375,8 +380,8 @@ function setup() {
         rockets.splice(i, 1);
         healthAmount -= 1;
         setHealth();
-        if (healthAmount < 0) playDead(false);
-        if (counter === 54 && !(healthAmount < 0)) playDead(true);
+        if (healthAmount === 0) setTimeout(function() { playDead(false) }, 1000);
+        if (counter === 59 && !(healthAmount < 0)) playDead(true);
       }
     });
   });
