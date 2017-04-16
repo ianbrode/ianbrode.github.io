@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "human4_001.png",
+	"frame": {"x":1,"y":42,"w":15,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":39},
+	"sourceSize": {"w":15,"h":39}
+},
+{
+	"filename": "human4_002.png",
+	"frame": {"x":1,"y":1,"w":16,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":39},
+	"sourceSize": {"w":16,"h":39}
+},
+{
+	"filename": "human4_003.png",
+	"frame": {"x":1,"y":83,"w":18,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":38},
+	"sourceSize": {"w":18,"h":38}
+},
+{
+	"filename": "human4_004.png",
+	"frame": {"x":18,"y":42,"w":11,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":37},
+	"sourceSize": {"w":11,"h":37}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "human4.png",
+	"format": "RGBA8888",
+	"size": {"w":30,"h":122},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:eb786533b976d8d3ff8d17e60351211b:2576571c81c462efd2d087f6838a6bae:baeac106744a532cecbd567445a9589c$"
+}
+}

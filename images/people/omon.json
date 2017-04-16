@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "omon_001.png",
+	"frame": {"x":1,"y":1,"w":22,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":41},
+	"sourceSize": {"w":22,"h":41}
+},
+{
+	"filename": "omon_002.png",
+	"frame": {"x":25,"y":1,"w":33,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":39},
+	"sourceSize": {"w":33,"h":39}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "omon.png",
+	"format": "RGBA8888",
+	"size": {"w":59,"h":43},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:06b66def6d144f33deedda1d108f783b:aa66d0f7059ce5941ab114d7d89e9f3b:1e913338f9839b9768a2f5a387325ab5$"
+}
+}
