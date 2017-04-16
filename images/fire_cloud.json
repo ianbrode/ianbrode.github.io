@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "fire_cloud_001.png",
+	"frame": {"x":1,"y":54,"w":79,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":77},
+	"sourceSize": {"w":79,"h":77}
+},
+{
+	"filename": "fire_cloud_002.png",
+	"frame": {"x":1,"y":1,"w":63,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":49},
+	"sourceSize": {"w":63,"h":49}
+},
+{
+	"filename": "fire_cloud_003.png",
+	"frame": {"x":66,"y":1,"w":44,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":51},
+	"sourceSize": {"w":44,"h":51}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "fire_cloud.png",
+	"format": "RGBA8888",
+	"size": {"w":111,"h":132},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:22ec211cf1500165b6145c10d25ff03f:e72a60edc6053cc47b93455bb4641536:f95d64de4d1c0267a248feb84b28acc0$"
+}
+}
