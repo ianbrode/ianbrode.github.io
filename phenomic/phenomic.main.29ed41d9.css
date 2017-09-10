@@ -18,9 +18,14 @@
 .menu span:hover {
   border-radius: 100px;
   border: solid 2px #ffffff;
-}.header {
+}.header-wrapper {
+  width: 100%;
+  background: rgba(0,0,0,0.3);
   position: fixed;
   top: 0;
+}
+
+.header {
   width: 1200px;
   height: 40px;
   margin: 0 auto;
